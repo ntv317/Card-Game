@@ -17,17 +17,23 @@ namespace CardGame
                 : elsePath(elements);
         }
         public static IEnumerable<T> Shuffle<T>(
-            this IEnumerable<T> elements)
+            this IEnumerable<T> elements, int time)
         {
             Random r = new Random();
             var list = elements.ToList();
-            for (int n = list.Count() - 1; n > 0; --n)
+
+            while (time > 0)
             {
-                int k = r.Next(n + 1);
-                var temp = list[n];
-                list[n] = list[k];
-                list[k] = temp;
+                for (int n = list.Count() - 1; n > 0; --n)
+                {
+                    int k = r.Next(n + 1);
+                    var temp = list[n];
+                    list[n] = list[k];
+                    list[k] = temp;
+                }
+                time--;
             }
+            
             return list;
         }
     }
