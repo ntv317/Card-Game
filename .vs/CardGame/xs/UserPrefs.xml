@@ -1,0 +1,39 @@
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{D53BE014-18D3-4E79-938A-7F03ADA8C87F}|Default">
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CardGame" expanded="True">
+            <Node name="CardGame" expanded="True">
+              <Node name="Entity" expanded="True" />
+              <Node name="Type" expanded="True" />
+              <Node name="PlayCard.cs" selected="True" />
+            </Node>
+            <Node name="CardGameTest" expanded="True" />
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="CardGame" expanded="True">
+            <Node name="CardGameTest" expanded="True">
+              <Node name="CardGameTest" expanded="True">
+                <Node name="Tests" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CardGame PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/thevan/Card-Game/CardGameTest/CardGameTest.cs" relfile="CardGameTest/CardGameTest.cs" line="30" column="1" />
+      <Breakpoint file="/Users/thevan/Card-Game/CardGameTest/CardGameTest.cs" relfile="CardGameTest/CardGameTest.cs" line="29" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

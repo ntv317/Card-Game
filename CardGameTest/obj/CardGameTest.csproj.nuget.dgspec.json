@@ -1,0 +1,130 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/thevan/Card-Game/CardGameTest/CardGameTest.csproj": {}
+  },
+  "projects": {
+    "/Users/thevan/Card-Game/CardGame/CardGame.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/thevan/Card-Game/CardGame/CardGame.csproj",
+        "projectName": "CardGame",
+        "projectPath": "/Users/thevan/Card-Game/CardGame/CardGame.csproj",
+        "packagesPath": "/Users/thevan/.nuget/packages/",
+        "outputPath": "/Users/thevan/Card-Game/CardGame/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/thevan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/thevan/Card-Game/CardGameTest/CardGameTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/thevan/Card-Game/CardGameTest/CardGameTest.csproj",
+        "projectName": "CardGameTest",
+        "projectPath": "/Users/thevan/Card-Game/CardGameTest/CardGameTest.csproj",
+        "packagesPath": "/Users/thevan/.nuget/packages/",
+        "outputPath": "/Users/thevan/Card-Game/CardGameTest/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/thevan/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "/Users/thevan/Card-Game/CardGame/CardGame.csproj": {
+                "projectPath": "/Users/thevan/Card-Game/CardGame/CardGame.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.16.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
