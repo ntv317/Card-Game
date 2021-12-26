@@ -11,3 +11,16 @@
 /Users/thevan/Projects/CardGame/CardGame/obj/Debug/netcoreapp3.1/CardGame.dll
 /Users/thevan/Projects/CardGame/CardGame/obj/Debug/netcoreapp3.1/CardGame.pdb
 /Users/thevan/Projects/CardGame/CardGame/obj/Debug/netcoreapp3.1/CardGame.genruntimeconfig.cache
+/Users/thevan/Card-Game/CardGame/bin/Debug/netcoreapp3.1/CardGame.deps.json
+/Users/thevan/Card-Game/CardGame/bin/Debug/netcoreapp3.1/CardGame.runtimeconfig.json
+/Users/thevan/Card-Game/CardGame/bin/Debug/netcoreapp3.1/CardGame.runtimeconfig.dev.json
+/Users/thevan/Card-Game/CardGame/bin/Debug/netcoreapp3.1/CardGame.dll
+/Users/thevan/Card-Game/CardGame/bin/Debug/netcoreapp3.1/CardGame.pdb
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.AssemblyInfoInputs.cache
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.AssemblyInfo.cs
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.csproj.CoreCompileInputs.cache
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.dll
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.pdb
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.genruntimeconfig.cache
+/Users/thevan/Card-Game/CardGame/obj/Debug/netcoreapp3.1/CardGame.csproj.AssemblyReference.cache

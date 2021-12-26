@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MoDu0bL2Oc85mSYkDCA4aKymiA7N9Jo3Ey7sv9Bdw2GftW8t6EjOpbGOu79AWJgULDU96N16gkbkGL82Fz+vWg==",
+  "dgSpecHash": "+aXlx8Nlr5SgRTPQmqTEocGel67dPKUXWQJBP0l1DiQJ7to11ySLx98T+bYvd8aZ5JPK0Hz4yu5tahONn5pBsg==",
   "success": true,
-  "projectFilePath": "/Users/thevan/Projects/CardGame/CardGame/CardGame.csproj",
+  "projectFilePath": "/Users/thevan/Card-Game/CardGame/CardGame.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

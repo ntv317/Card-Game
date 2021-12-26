@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/thevan/Projects/CardGame/CardGame/CardGame.csproj": {}
+    "/Users/thevan/Card-Game/CardGame/CardGame.csproj": {}
   },
   "projects": {
-    "/Users/thevan/Projects/CardGame/CardGame/CardGame.csproj": {
+    "/Users/thevan/Card-Game/CardGame/CardGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/thevan/Projects/CardGame/CardGame/CardGame.csproj",
+        "projectUniqueName": "/Users/thevan/Card-Game/CardGame/CardGame.csproj",
         "projectName": "CardGame",
-        "projectPath": "/Users/thevan/Projects/CardGame/CardGame/CardGame.csproj",
+        "projectPath": "/Users/thevan/Card-Game/CardGame/CardGame.csproj",
         "packagesPath": "/Users/thevan/.nuget/packages/",
-        "outputPath": "/Users/thevan/Projects/CardGame/CardGame/obj/",
+        "outputPath": "/Users/thevan/Card-Game/CardGame/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/thevan/.config/NuGet/NuGet.Config"
@@ -52,7 +52,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.401/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.404/RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -48,15 +48,15 @@ namespace CardGame
                 x => x.IfThenElse(
                     () => desc,
                     e => e.OrderByDescending(y => y.CardNumber.Values.FirstOrDefault())
-                    .ThenBy(y => y.CardNumber.Values.FirstOrDefault()),
+                    .ThenByDescending(y => y.Suit.Values.FirstOrDefault()),
                     e => e.OrderBy(y => y.CardNumber.Values.FirstOrDefault())
-                    .ThenBy(y => y.CardNumber.Values.FirstOrDefault())),
+                    .ThenByDescending(y => y.Suit.Values.FirstOrDefault())),
                 x => x.IfThenElse(
                     () => desc,
                     e => e.OrderByDescending(y => y.Suit.Values.FirstOrDefault())
                     .ThenByDescending(y => y.CardNumber.Values.FirstOrDefault()),
                     e => e.OrderBy(y => y.Suit.Values.FirstOrDefault())
-                    .ThenByDescending(y => y.CardNumber.Values.FirstOrDefault()))
+                    .ThenBy(y => y.CardNumber.Values.FirstOrDefault()))
                 );
 
         }
@@ -65,7 +65,7 @@ namespace CardGame
             StringBuilder sb = new StringBuilder();
             foreach (var a in deck)
             {
-                sb.Append($"{a.CardNumber.Keys.FirstOrDefault()}-{a.Suit}; ");
+                sb.Append($"{a.CardNumber.Keys.FirstOrDefault()}-{a.Suit.Keys.FirstOrDefault()}; ");
             }
             return sb.ToString();
 
@@ -75,10 +75,10 @@ namespace CardGame
         {
             return new Dictionary<string, int>
             {
-                {"Spade", 1 },
-                {"Club",2 },
+                {"Heart" ,4},
                 {"Diamond",3 },
-                {"Heart" ,4}
+                {"Club",2 },
+                {"Spade", 1 }
             };
         }
     }
